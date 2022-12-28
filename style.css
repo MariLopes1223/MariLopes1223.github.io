@@ -1,6 +1,9 @@
-table{
-    border: 0.5;
+#tabela{
     border-color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
 }
 
 th{
@@ -8,13 +11,28 @@ th{
 }
 
 body {
-    display: grid;
     background-color: lavender;
-    position: static;
-    justify-items: center;
-    row-gap: 0;
+    text-align: center;
 }
 
 td{
     background-color: rgb(228, 228, 247);
+}
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 22em;
+}
+
+#habil{
+    margin-left: 13.9cm;
+    margin-right: auto;
+    width: 12em;
+}
+
+#abacate{
+    margin-left: 0.7cm;
+    margin-right: auto;
+    width: 4em;
 }
